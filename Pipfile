@@ -1,7 +1,12 @@
 [[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
+#url = "https://pypi.org/simple"
+#verify_ssl = true
+#name = "pypi"
+
+# 清华大学
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = false
+name = "tsinghua"
 
 [packages]
 
